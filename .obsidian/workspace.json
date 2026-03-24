@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f63e24fdacda4420",
+        "id": "d6ec20dd22622872",
         "type": "tabs",
         "children": [
           {
-            "id": "224b4ac83a97fce3",
+            "id": "abd19071da6995f5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "1.png"
+                "file": "2026-03-24.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "1"
+              "icon": "lucide-file",
+              "title": "2026-03-24"
             }
           }
         ]
@@ -154,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자격증 자료/정보기 1.pdf",
+                "file": "2026-03-24.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "정보기 1 의 개요"
+              "title": "2026-03-24 의 개요"
             }
           }
         ],
@@ -178,13 +180,15 @@
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "bases:새 베이스 생성하기": false
+      "bases:새 베이스 생성하기": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7961fcc3fb43ba3e",
+  "active": "abd19071da6995f5",
   "lastOpenFiles": [
-    "자격증 자료/정보기.pdf",
+    "2026-03-24.md",
     "자격증 자료/정보기 1.pdf",
+    "자격증 자료/정보기.pdf",
     "1.png",
     "MinGw_1.png",
     "Pasted image 20260310092537.png",
@@ -194,7 +198,6 @@
     "2026-03-17-Compose.md",
     "2026-03-17-Dockerfile.md",
     "이미지.png",
-    "무제.md",
     "2026-03-23.md",
     "2026-03-18-gcc install.md",
     "보안기사 실기.md",
