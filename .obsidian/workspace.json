@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "6702a29687a8e357",
+    "type": "split",
+    "children": [
+      {
+        "id": "f63e24fdacda4420",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "224b4ac83a97fce3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "1.png"
+              },
+              "icon": "lucide-image",
+              "title": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e197f620215e3373",
+    "type": "split",
+    "children": [
+      {
+        "id": "05f2dfc5b0427d08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7961fcc3fb43ba3e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "cc3c7768f3d54041",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#기존",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "1a1a33920420e494",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 216.5
+  },
+  "right": {
+    "id": "6bb1b829e6e3bb05",
+    "type": "split",
+    "children": [
+      {
+        "id": "58e525d25ebd7b67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70f6ec5fa0aba9e6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "수업 필기/2026.01.19.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2026.01.19 의 백링크"
+            }
+          },
+          {
+            "id": "bb685073ca9a4c2e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2026-02-26.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "2026-02-26 의 나가는 링크"
+            }
+          },
+          {
+            "id": "8f328848805b6c73",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "b2bbfb32dc082e52",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "7254d97c425dadc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "자격증 자료/정보기 1.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "정보기 1 의 개요"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "7961fcc3fb43ba3e",
+  "lastOpenFiles": [
+    "자격증 자료/정보기.pdf",
+    "자격증 자료/정보기 1.pdf",
+    "1.png",
+    "MinGw_1.png",
+    "Pasted image 20260310092537.png",
+    "2026-03-13-IDM+AD.md",
+    "2026-03-13-IDM+AD 실습 환경 구축.md",
+    "2026-03-16.md",
+    "2026-03-17-Compose.md",
+    "2026-03-17-Dockerfile.md",
+    "이미지.png",
+    "무제.md",
+    "2026-03-23.md",
+    "2026-03-18-gcc install.md",
+    "보안기사 실기.md",
+    "실기기출 풀이.md",
+    "슬라이드2.png",
+    "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
+    "MinGw_14.png",
+    "MinGw_12 1.png",
+    "MinGw_12.png",
+    "MinGw_13.png",
+    "MinGw_10.png",
+    "무제 2.md",
+    "실습 환경 구축",
+    "2026-03-11.md",
+    "2026-03-10-AZ-700.md",
+    "2026-03-03.md",
+    "2026-02-26.md",
+    "수업 필기/2026-02-25-FreeIPA HBAC 접근 통제 실습.md",
+    "수업 필기/2026-02-25-FreeIPA Sudo 권한 관리 실습.md",
+    "수업 필기/2026-02-24.md",
+    "수업 필기/2026-02-23-RHEL 서버 IDM 설치 및 구성.md",
+    "자격증 자료/시험 일정.md",
+    "자격증 자료/2026_정보처리기사필기_기출문제집_핵심요약_unlocked.pdf",
+    "자격증 자료/SQLD_시험전에 한번 보기.pdf",
+    "자격증 자료/정보보안기사 필기+실기 올인원_구매인증자료.pdf",
+    "자격증 자료/SQLD_1.pdf",
+    "conflict-files-obsidian-git.md",
+    "수업 필기/2026-02-12.md",
+    "수업 필기/2026-02-11-MySQL Backup.md",
+    "보안.md",
+    "자격증 자료/SQLD_2.pdf",
+    "자격증 자료",
+    "수업 필기/05장.pptx"
+  ]
+}
