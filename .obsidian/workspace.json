@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-08.md",
+                "file": "2026-04-08-취약점분석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-08"
+              "title": "2026-04-08-취약점분석"
             }
           }
         ]
@@ -189,7 +189,7 @@
   "active": "105530facf6072d6",
   "lastOpenFiles": [
     "2026-03-17-Dockerfile.md",
-    "2026-04-08.md",
+    "2026-04-08-취약점분석.md",
     "2026-03-17-Compose.md",
     "2026-03-16.md",
     "2026-03-13-IDM+AD 실습 환경 구축.md",
