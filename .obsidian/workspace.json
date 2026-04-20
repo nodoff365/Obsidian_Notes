@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제.md",
+                "file": "CoreMall 권한 탈취 및 취약점 점검.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "무제 의 개요"
+              "title": "CoreMall 권한 탈취 및 취약점 점검 의 개요"
             }
           }
         ],
@@ -203,8 +203,11 @@
   },
   "active": "cc9e09b5f7c2ac32",
   "lastOpenFiles": [
-    "CoreMall 권한 탈취 및 취약점 점검.md",
     "2026-04-08-취약점분석.md",
+    "CoreMall 권한 탈취 및 취약점 점검.md",
+    "SQL_Injection_취약점탐색2.png",
+    "SQL_Injection_취약점탐색1.png",
+    "CoreMall_png",
     "2026-03-17-Dockerfile.md",
     "2026-03-17-Compose.md",
     "2026-03-16.md",
@@ -231,8 +234,6 @@
     "MinGw_14.png",
     "MinGw_12 1.png",
     "MinGw_12.png",
-    "MinGw_13.png",
-    "MinGw_10.png",
     "무제 2.md",
     "실습 환경 구축",
     "2026-02-26.md",
@@ -245,9 +246,7 @@
     "자격증 자료/정보보안기사 필기+실기 올인원_구매인증자료.pdf",
     "자격증 자료/SQLD_1.pdf",
     "conflict-files-obsidian-git.md",
-    "수업 필기/2026-02-12.md",
     "자격증 자료/SQLD_2.pdf",
-    "자격증 자료",
-    "수업 필기/05장.pptx"
+    "자격증 자료"
   ]
 }
