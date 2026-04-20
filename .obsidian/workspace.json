@@ -186,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,6 +202,7 @@
   },
   "active": "cc9e09b5f7c2ac32",
   "lastOpenFiles": [
+    "SQL_Injection_취약점탐색3.png",
     "2026-04-08-취약점분석.md",
     "CoreMall 권한 탈취 및 취약점 점검.md",
     "SQL_Injection_취약점탐색2.png",
