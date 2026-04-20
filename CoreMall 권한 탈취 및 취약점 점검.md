@@ -54,7 +54,8 @@
 
 ##### 다. Union-Based 공격의 한계 및 Error-Based 전환
 
-- **문제 발생:** 확정된 80개의 컬럼을 바탕으로 `UNION SELECT 1,2...80%23`을 주입하였으나, 화면이나 소스 코드(View Source) 상에 주입한 데이터가 전혀 노출되지 않는 출력 지점 부재(No Display Point) 현상이 발생함.
+- **문제 발생:** 확정된 80개의 컬럼을 바탕으로 ```./m_mall_detail.php?ps_ctid=03070000&ps_goid=-1' UNION SELECT 1,2,...,80%23```을 주입하였으나, 화면이나 소스 코드(View Source) 상에 주입한 데이터가 전혀 노출되지 않는 출력 지점 부재(No Display Point) 현상이 발생함.
+![[Pasted image 20260420140706.png]]
 
 - **해결 방안:** 화면 출력에 의존하지 않고, 서버가 반환하는 SQL 에러 메시지에 데이터를 강제로 포함시키는 **Error-Based SQL Injection** 기법으로 전략을 수정함.
 
