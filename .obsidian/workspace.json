@@ -11,14 +11,12 @@
             "id": "105530facf6072d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CoreMall 권한 탈취 및 취약점 점검.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20260310092537.png"
               },
-              "icon": "lucide-file",
-              "title": "CoreMall 권한 탈취 및 취약점 점검"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260310092537"
             }
           }
         ]
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CoreMall 권한 탈취 및 취약점 점검.md",
+                "file": "Pasted image 20260310092537.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CoreMall 권한 탈취 및 취약점 점검 의 개요"
+              "title": "Pasted image 20260310092537 의 개요"
             }
           }
         ],
@@ -186,21 +184,21 @@
   },
   "active": "105530facf6072d6",
   "lastOpenFiles": [
-    "Pasted image 20260310092537.png",
-    "CoreMall 권한 탈취 및 취약점 점검.md",
-    "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
-    "무제.md",
-    "이미지.png",
-    "1.png",
-    "CoreMall_png/Pasted image 20260420140706.png",
+    "CoreMall_png/SQL_Injection_취약점탐색11.png",
+    "CoreMall_png/SQL_Injection_취약점탐색10.png",
     "CoreMall_png/SQL_Injection_취약점탐색9.png",
     "CoreMall_png/SQL_Injection_취약점탐색8.png",
     "CoreMall_png/SQL_Injection_취약점탐색7.png",
-    "CoreMall_png/SQL_Injection_취약점탐색6_1.png",
-    "CoreMall_png/SQL_Injection_취약점탐색6_2.png",
+    "CoreMall_png/SQL_Injection_취약점탐색6.png",
     "CoreMall_png/SQL_Injection_취약점탐색5.png",
     "CoreMall_png/SQL_Injection_취약점탐색4.png",
+    "CoreMall_png/SQL_Injection_취약점탐색3.png",
+    "CoreMall_png/SQL_Injection_취약점탐색2.png",
+    "CoreMall_png/SQL_Injection_취약점탐색1.png",
+    "CoreMall 권한 탈취 및 취약점 점검.md",
     "2026-04-08-취약점분석.md",
+    "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
+    "무제.md",
     "CoreMall_png",
     "2026-03-17-Dockerfile.md",
     "2026-03-17-Compose.md",
