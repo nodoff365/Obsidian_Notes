@@ -11,12 +11,14 @@
             "id": "105530facf6072d6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260310092537.png"
+                "file": "CoreMall 권한 탈취 및 취약점 점검.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260310092537"
+              "icon": "lucide-file",
+              "title": "CoreMall 권한 탈취 및 취약점 점검"
             }
           }
         ]
@@ -154,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20260310092537.png",
+                "file": "CoreMall 권한 탈취 및 취약점 점검.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20260310092537 의 개요"
+              "title": "CoreMall 권한 탈취 및 취약점 점검 의 개요"
             }
           }
         ],
@@ -184,6 +186,14 @@
   },
   "active": "105530facf6072d6",
   "lastOpenFiles": [
+    "Pasted image 20260310092537.png",
+    "2026-04-08-취약점분석.md",
+    "2026-03-17-Dockerfile.md",
+    "2026-03-16.md",
+    "이미지.png",
+    "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
+    "2026-03-24.md",
+    "2026-03-17-Compose.md",
     "CoreMall_png/SQL_Injection_취약점탐색11.png",
     "CoreMall_png/SQL_Injection_취약점탐색10.png",
     "CoreMall_png/SQL_Injection_취약점탐색9.png",
@@ -192,24 +202,15 @@
     "CoreMall_png/SQL_Injection_취약점탐색6.png",
     "CoreMall_png/SQL_Injection_취약점탐색5.png",
     "CoreMall_png/SQL_Injection_취약점탐색4.png",
-    "CoreMall_png/SQL_Injection_취약점탐색3.png",
-    "CoreMall_png/SQL_Injection_취약점탐색2.png",
-    "CoreMall_png/SQL_Injection_취약점탐색1.png",
     "CoreMall 권한 탈취 및 취약점 점검.md",
-    "2026-04-08-취약점분석.md",
-    "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
     "무제.md",
     "CoreMall_png",
-    "2026-03-17-Dockerfile.md",
-    "2026-03-17-Compose.md",
-    "2026-03-16.md",
     "2026-03-13-IDM+AD 실습 환경 구축.md",
     "2026-03-13-IDM+AD.md",
     "2026-03-11.md",
     "2026-03-10-AZ-700.md",
     "2026-03-03.md",
     "수업 필기/2026-02-25-FreeIPA Sudo 권한 관리 실습.md",
-    "2026-03-24.md",
     "자격증 자료/정보기 1.pdf",
     "자격증 자료/정보기.pdf",
     "2026-03-23.md",
