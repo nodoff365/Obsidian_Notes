@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-04-22-모의해킹.md",
+                "file": "2026-04-27-모의해킹.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-04-22-모의해킹 의 개요"
+              "title": "2026-04-27-모의해킹 의 개요"
             }
           }
         ],
@@ -215,14 +215,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ba321899d652660",
+  "active": "bebd314ed22fc0cf",
   "lastOpenFiles": [
-    "2026-04-27-모의해킹.md",
     "2026-04-22-모의해킹.md",
+    "CoreMall 권한 탈취 및 취약점 점검.md",
+    "2026-04-27-모의해킹.md",
     "Pasted image 20260310092537.png",
     "Snipaste_2026-04-22_12-31-13.png",
     "Snipaste_2026-04-22_12-51-02.png",
-    "CoreMall 권한 탈취 및 취약점 점검.md",
     "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
     "2026-03-17-Compose.md",
     "2026-03-17-Dockerfile.md",
