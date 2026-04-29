@@ -12,6 +12,7 @@ Dynamips - IOS routers - New - New Image(IOS image) Next - Next - Next - Next - 
 ```text
 # gns3에 VirtualBox 연결
 Edit - Preferences - VirtualBox VMs(New) - Rocky9-1(Finish) - Apply(OK) # 같은 방법으로 9-2 추가
+
 ```
 
 ## 2. Oracle VirtualBox
