@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-49-gns3.md",
+                "file": "2026-04-49-VirtualBox-GNS3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-49-gns3"
+              "title": "2026-04-49-VirtualBox-GNS3"
             }
           }
         ],
@@ -247,7 +247,7 @@
   "lastOpenFiles": [
     "2026-04-28-모의해킹(Linux-FTP).md",
     "2026-04-29-모의해킹(Windows-FTP).md",
-    "2026-04-49-gns3.md",
+    "2026-04-49-VirtualBox-GNS3.md",
     "2026-04-27-모의해킹(DHCP).md",
     "2026-04-22-모의해킹.md",
     "CoreMall 권한 탈취 및 취약점 점검.md",

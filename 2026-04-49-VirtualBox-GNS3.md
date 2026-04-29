@@ -1,7 +1,7 @@
 ```text
 # gns3 환경 설정
 
-edit - Preferences - Console applications(Edit) - Xshell 5 선택 - 경로
+Edit - Preferences - Console applications(Edit) - Xshell 5 선택 - 경로
 (C:\Program Files (x86)\NetSarang\Xshell 8\xshell.exe)로 변경
 
 Preferences - Server - Host binding(127.0.0.1)
@@ -10,7 +10,8 @@ Dynamips - IOS routers - New - New Image(IOS image) Next - Next - Next - Next - 
 ```
 
 ```text
-# gns3에
+# gns3에 VirtualBox 연결
+Edit - Preferences - VirtualBox VMs(New) - Rocky9-1(Finish) - Apply(OK) # 같은 방법으로 9-2 추가
 ```
 
 ## 2. Oracle VirtualBox
