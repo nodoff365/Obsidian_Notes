@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "2026-04-28-모의해킹(Linux-FTP).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,14 +243,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa50d48cd5334b81",
+  "active": "6ba321899d652660",
   "lastOpenFiles": [
-    "구성도.png",
     "2026-04-28-모의해킹(Linux-FTP).md",
+    "2026-04-27-모의해킹(DHCP).md",
     "2026-04-29-모의해킹(Windows-FTP).md",
     "2026-04-49-VirtualBox-GNS3.md",
-    "2026-04-27-모의해킹(DHCP).md",
     "2026-04-22-모의해킹.md",
+    "구성도.png",
     "CoreMall 권한 탈취 및 취약점 점검.md",
     "스크린샷 2026-04-27 154302.png",
     "Pasted image 20260427125305.png",
@@ -267,7 +267,6 @@
     "2026-04-08-취약점분석.md",
     "Pasted image 20260422123941.png",
     "2026-03-16.md",
-    "이미지.png",
     "CoreMall_png",
     "2026-03-13-IDM+AD 실습 환경 구축.md",
     "2026-03-13-IDM+AD.md",
