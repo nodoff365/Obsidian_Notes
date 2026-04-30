@@ -19,6 +19,7 @@ Edit - Preferences - VirtualBox VMs(New) - Rocky9-1(Finish) - Apply(OK)
 # Gns3 라우터 설정
 R1 
 
+do sh ip route
 ```
 
 ## 2. Oracle VirtualBox
