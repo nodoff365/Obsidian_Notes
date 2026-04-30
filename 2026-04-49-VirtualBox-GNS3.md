@@ -1,3 +1,4 @@
+## 1. GNS3
 ```text
 # Gns3 환경 설정
 
@@ -20,6 +21,7 @@ Edit - Preferences - VirtualBox VMs(New) - Rocky9-1(Finish) - Apply(OK)
 R1 
 
 do sh ip route
+네트워크 개수 라우팅테이블 개수 맞추기
 ```
 
 ## 2. Oracle VirtualBox
@@ -40,4 +42,21 @@ Rocky9-1(설정) - Expert(네트워크) - 어댑터 1 Attached to (연결되지 
 
 # Rocky9-1 복제
 Rocky9-1 - 복제 - 이름(Rocky9-2) - 완전한 복제 - MAC 주소 정책(NAT 네트워크 어댑터 MAC 주소만 포함) 완료
+```
+
+```text
+# win10
+sysdm.cpl - 컴퓨터 이름(w10)
+장치 - 게스트 확장 CD 이미지 삽입 - VBoxWindowsAdditions-amd64
+control - 방화벽 - 고급설정 - 에코요청 사용함
+control - 전원옵션
+services.msc - windows update 사용안함
+ncpa.cpl 3.0.0.2/24 3.0.0.254
+168.126.63.1 8.8.8.8
+```
+
+```text
+# winsvr
+ip 1.0.0.2/24 1.0.0.254
+168.126.63.1 8.8.8.8
 ```
