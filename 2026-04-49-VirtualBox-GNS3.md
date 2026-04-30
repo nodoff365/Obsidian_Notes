@@ -1,8 +1,19 @@
+## 용어 정리
+1.1 CSP(Cloud Service Provider): Cloud 서비스 제공 업체
+	1.1.1 AWS
+	1.1.2 MS Azure: App office 365
+	1.1.3 GCP(Google Cloud Platform): AI, Bigdata
+	1.1.4 NCP
+
+1.2 MSP(Management Service Provider): Colud 관련 Mansgement 제공 업체
+	1.2.1 Megazone
+	1.2.2 Bespin Global
+	1.2.3 클루커스
 
 ![[구성도.png]]
 
 ```text
-# gns3 환경 설정
+# Gns3 환경 설정
 
 Edit - Preferences - Console applications(Edit) - Xshell 5 선택 - 경로
 (C:\Program Files (x86)\NetSarang\Xshell 8\xshell.exe)로 변경
@@ -13,8 +24,14 @@ Dynamips - IOS routers - New - New Image(IOS image) Next - Next - Next - Next - 
 ```
 
 ```text
-# gns3에 VirtualBox 연결
-Edit - Preferences - VirtualBox VMs(New) - Rocky9-1(Finish) - Apply(OK) # 같은 방법으로 9-2 추가
+# Gns3에 VirtualBox 연결
+Edit - Preferences - VirtualBox VMs(New) - Rocky9-1(Finish) - Apply(OK) 
+# 같은 방법으로 9-2 추가
+```
+
+```text
+# Gns3 라우터 설정
+R1 
 
 ```
 
