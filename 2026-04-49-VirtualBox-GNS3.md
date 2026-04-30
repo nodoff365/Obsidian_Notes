@@ -1,17 +1,3 @@
-## 용어 정리
-1.1 CSP(Cloud Service Provider): Cloud 서비스 제공 업체
-	1.1.1 AWS
-	1.1.2 MS Azure: App office 365
-	1.1.3 GCP(Google Cloud Platform): AI, Bigdata
-	1.1.4 NCP
-
-1.2 MSP(Management Service Provider): Colud 관련 Mansgement 제공 업체
-	1.2.1 Megazone
-	1.2.2 Bespin Global
-	1.2.3 클루커스
-
-![[구성도.png]]
-
 ```text
 # Gns3 환경 설정
 
