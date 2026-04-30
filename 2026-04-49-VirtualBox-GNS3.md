@@ -64,3 +64,5 @@ ip 1.0.0.2/24 1.0.0.254
 
 
 라우터 dhcp ip helper
+
+![[Pasted image 20260430174957.png]]

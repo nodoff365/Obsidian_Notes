@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -243,8 +243,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ba321899d652660",
+  "active": "aa50d48cd5334b81",
   "lastOpenFiles": [
+    "Pasted image 20260430174957.png",
     "2026-04-28-모의해킹(Linux-FTP).md",
     "2026-04-27-모의해킹(DHCP).md",
     "2026-04-29-모의해킹(Windows-FTP).md",
