@@ -11,14 +11,12 @@
             "id": "105530facf6072d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "수업 필기/2026-04-22-모의해킹.md",
-                "mode": "source",
-                "source": false
+                "file": "Rocky9-nmtui.png"
               },
-              "icon": "lucide-file",
-              "title": "2026-04-22-모의해킹"
+              "icon": "lucide-image",
+              "title": "Rocky9-nmtui"
             }
           },
           {
@@ -134,8 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5,
-    "collapsed": true
+    "width": 216.5
   },
   "right": {
     "id": "6bb1b829e6e3bb05",
@@ -244,14 +241,16 @@
   },
   "active": "105530facf6072d6",
   "lastOpenFiles": [
-    "수업 필기/2026-04-27-모의해킹(DHCP).md",
     "수업 필기/2026-04-22-모의해킹.md",
+    "수업 필기/2026-04-08-취약점분석.md",
+    "Rocky9-nmtui.png",
+    "Pasted image 20260430174957.png",
+    "Pasted image 20260427125305.png",
+    "Pasted image 20260310092537.png",
+    "수업 필기/2026-04-27-모의해킹(DHCP).md",
     "수업 필기/2026-04-49-VirtualBox-GNS3.md",
     "CoreMall 권한 탈취 및 취약점 점검.md",
     "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
-    "Pasted image 20260310092537.png",
-    "Pasted image 20260427125305.png",
-    "Snipaste_2026-04-22_12-31-13.png",
     "수업 필기/2026-03-17-Dockerfile.md",
     "수업 필기/2026-03-11.md",
     "수업 필기/2026-03-10-AZ-700.md",
@@ -261,7 +260,6 @@
     "수업 필기/2026-02-24.md",
     "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
     "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
-    "Pasted image 20260430174957.png",
     "구성도.png",
     "스크린샷 2026-04-27 154302.png",
     "스크린샷 2026-04-27 112730.png",
@@ -270,7 +268,6 @@
     "Snipaste_2026-04-22_12-51-02.png",
     "수업 필기/2026-03-17-Compose.md",
     "수업 필기/2026-03-24.md",
-    "수업 필기/2026-04-08-취약점분석.md",
     "수업 필기/2026-03-16.md",
     "CoreMall_png",
     "수업 필기/2026-03-13-IDM+AD 실습 환경 구축.md",
