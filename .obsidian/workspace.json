@@ -11,12 +11,14 @@
             "id": "105530facf6072d6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Rocky9-nmtui.png"
+                "file": "수업 필기/2026-04-22-모의해킹.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Rocky9-nmtui"
+              "icon": "lucide-file",
+              "title": "2026-04-22-모의해킹"
             }
           },
           {
@@ -241,16 +243,25 @@
   },
   "active": "105530facf6072d6",
   "lastOpenFiles": [
-    "수업 필기/2026-04-22-모의해킹.md",
-    "수업 필기/2026-04-08-취약점분석.md",
-    "Rocky9-nmtui.png",
-    "Pasted image 20260430174957.png",
-    "Pasted image 20260427125305.png",
-    "Pasted image 20260310092537.png",
-    "수업 필기/2026-04-27-모의해킹(DHCP).md",
     "수업 필기/2026-04-49-VirtualBox-GNS3.md",
-    "CoreMall 권한 탈취 및 취약점 점검.md",
-    "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
+    "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
+    "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
+    "수업 필기/2026-04-27-모의해킹(DHCP).md",
+    "수업 필기/2026-04-22-모의해킹.md",
+    "스크린샷/nfs2.png",
+    "스크린샷/nfs1.png",
+    "스크린샷/nfs.png",
+    "스크린샷/df_cat_etc_fstab.png",
+    "쓰레기통/1.png",
+    "쓰레기통/Snipaste_2026-04-22_12-51-02.png",
+    "쓰레기통/Pasted image 20260427125305.png",
+    "쓰레기통/Pasted image 20260430174957.png",
+    "쓰레기통/Pasted image 20260310092537.png",
+    "쓰레기통/CoreMall 권한 탈취 및 취약점 점검.md",
+    "쓰레기통/Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
+    "쓰레기통/이미지.png",
+    "쓰레기통",
+    "수업 필기/2026-04-08-취약점분석.md",
     "수업 필기/2026-03-17-Dockerfile.md",
     "수업 필기/2026-03-11.md",
     "수업 필기/2026-03-10-AZ-700.md",
@@ -258,14 +269,6 @@
     "수업 필기/2026-02-25-FreeIPA Sudo 권한 관리 실습.md",
     "수업 필기/2026-02-25-FreeIPA HBAC 접근 통제 실습.md",
     "수업 필기/2026-02-24.md",
-    "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
-    "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
-    "구성도.png",
-    "스크린샷 2026-04-27 154302.png",
-    "스크린샷 2026-04-27 112730.png",
-    "스크린샷 2026-04-27 121748.png",
-    "스크린샷 2026-04-27 122738.png",
-    "Snipaste_2026-04-22_12-51-02.png",
     "수업 필기/2026-03-17-Compose.md",
     "수업 필기/2026-03-24.md",
     "수업 필기/2026-03-16.md",
@@ -284,7 +287,6 @@
     "자격증 자료/SQLD_시험전에 한번 보기.pdf",
     "자격증 자료/정보보안기사 필기+실기 올인원_구매인증자료.pdf",
     "자격증 자료/SQLD_1.pdf",
-    "자격증 자료/SQLD_2.pdf",
-    "자격증 자료"
+    "자격증 자료/SQLD_2.pdf"
   ]
 }
