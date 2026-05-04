@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-22-모의해킹.md",
-                "mode": "preview",
+                "file": "수업 필기/2026-04-22-모의해킹.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-27-모의해킹(DHCP).md",
+                "file": "수업 필기/2026-04-27-모의해킹(DHCP).md",
                 "mode": "preview",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-28-모의해킹(Linux-FTP).md",
+                "file": "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
                 "mode": "source",
                 "source": false
               },
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-29-모의해킹(Windows-FTP).md",
+                "file": "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
                 "mode": "source",
                 "source": false
               },
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-04-49-VirtualBox-GNS3.md",
+                "file": "수업 필기/2026-04-49-VirtualBox-GNS3.md",
                 "mode": "source",
                 "source": false
               },
@@ -77,8 +77,7 @@
               "title": "2026-04-49-VirtualBox-GNS3"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,38 +242,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa50d48cd5334b81",
+  "active": "105530facf6072d6",
   "lastOpenFiles": [
-    "Pasted image 20260430174957.png",
-    "2026-04-28-모의해킹(Linux-FTP).md",
-    "2026-04-27-모의해킹(DHCP).md",
-    "2026-04-29-모의해킹(Windows-FTP).md",
-    "2026-04-49-VirtualBox-GNS3.md",
-    "2026-04-22-모의해킹.md",
-    "구성도.png",
+    "수업 필기/2026-04-27-모의해킹(DHCP).md",
+    "수업 필기/2026-04-49-VirtualBox-GNS3.md",
     "CoreMall 권한 탈취 및 취약점 점검.md",
-    "스크린샷 2026-04-27 154302.png",
+    "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
+    "Pasted image 20260310092537.png",
     "Pasted image 20260427125305.png",
+    "Snipaste_2026-04-22_12-31-13.png",
+    "수업 필기/2026-03-17-Dockerfile.md",
+    "수업 필기/2026-03-11.md",
+    "수업 필기/2026-03-10-AZ-700.md",
+    "수업 필기/2026-03-03.md",
+    "수업 필기/2026-02-25-FreeIPA Sudo 권한 관리 실습.md",
+    "수업 필기/2026-02-25-FreeIPA HBAC 접근 통제 실습.md",
+    "수업 필기/2026-02-24.md",
+    "수업 필기/2026-04-22-모의해킹.md",
+    "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
+    "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
+    "Pasted image 20260430174957.png",
+    "구성도.png",
+    "스크린샷 2026-04-27 154302.png",
     "스크린샷 2026-04-27 112730.png",
     "스크린샷 2026-04-27 121748.png",
     "스크린샷 2026-04-27 122738.png",
-    "Pasted image 20260310092537.png",
-    "Snipaste_2026-04-22_12-31-13.png",
     "Snipaste_2026-04-22_12-51-02.png",
-    "Azure 멀티 리전(서울·부산) 웹 서버 배포 및 VNet 피어링 기반 rsync 백업.md",
-    "2026-03-17-Compose.md",
-    "2026-03-17-Dockerfile.md",
-    "2026-03-24.md",
-    "2026-04-08-취약점분석.md",
-    "Pasted image 20260422123941.png",
-    "2026-03-16.md",
+    "수업 필기/2026-03-17-Compose.md",
+    "수업 필기/2026-03-24.md",
+    "수업 필기/2026-04-08-취약점분석.md",
+    "수업 필기/2026-03-16.md",
     "CoreMall_png",
-    "2026-03-13-IDM+AD 실습 환경 구축.md",
-    "2026-03-13-IDM+AD.md",
-    "2026-03-11.md",
-    "2026-03-10-AZ-700.md",
-    "2026-03-03.md",
-    "수업 필기/2026-02-25-FreeIPA Sudo 권한 관리 실습.md",
+    "수업 필기/2026-03-13-IDM+AD 실습 환경 구축.md",
+    "수업 필기/2026-03-13-IDM+AD.md",
     "자격증 자료/정보기 1.pdf",
     "자격증 자료/정보기.pdf",
     "2026-03-23.md",
@@ -283,8 +283,6 @@
     "실기기출 풀이.md",
     "무제 2.md",
     "실습 환경 구축",
-    "2026-02-26.md",
-    "수업 필기/2026-02-25-FreeIPA HBAC 접근 통제 실습.md",
     "자격증 자료/2026_정보처리기사필기_기출문제집_핵심요약_unlocked.pdf",
     "자격증 자료/SQLD_시험전에 한번 보기.pdf",
     "자격증 자료/정보보안기사 필기+실기 올인원_구매인증자료.pdf",
