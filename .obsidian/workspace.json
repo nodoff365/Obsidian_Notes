@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "수업 필기/2026-04-22-모의해킹.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -91,8 +91,7 @@
               "title": "2026-04-49-모의해킹(DNS)"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-04-28-모의해킹(FTP).md",
+                "file": "수업 필기/2026-04-22-모의해킹.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-04-28-모의해킹(FTP) 의 개요"
+              "title": "2026-04-22-모의해킹 의 개요"
             }
           }
         ],
@@ -242,8 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5,
-    "collapsed": true
+    "width": 251.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,17 +255,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "08e3f6fa46c06f6a",
+  "active": "105530facf6072d6",
   "lastOpenFiles": [
+    "수업 필기/2026-04-27-모의해킹(DHCP).md",
+    "수업 필기/2026-04-49-VirtualBox-GNS3.md",
+    "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
     "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
     "수업 필기/2026-04-22-모의해킹.md",
-    "수업 필기/2026-04-27-모의해킹(DHCP).md",
     "2026-04-49-모의해킹(DNS).md",
     "6.png",
     "5.png",
     "4.png",
-    "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
-    "수업 필기/2026-04-49-VirtualBox-GNS3.md",
     "스크린샷/nfs2.png",
     "스크린샷/nfs1.png",
     "스크린샷/nfs.png",
