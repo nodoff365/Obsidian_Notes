@@ -6,8 +6,6 @@ dnf install -y httpd # apache 웹서버
 vi /etc/httpd/conf/httpd.conf
 91 ServerAdmin web@gmseo.local #관리자 계정명 변경
 149 Indexes 삭제 #디렉토리 리스닝 기능
-#     91 ServerAdmin www.sgm.local:80
-#     92 ServerAdmin sgm.local:80
 
 vi /etc/httpd/conf.d/welcome.conf
 mv /etc/httpd/conf.d/{welcome.conf,welcome.conf.bak}
@@ -282,4 +280,13 @@ systemctl restart httpd
 ```bash
 nslookup
 dig @8.8.8.8 naver.com +trace
+```
+
+
+```
+<html>
+<body>
+<h1>MAIN-SGM-WEB-2</h1>
+</body>
+</html>
 ```
