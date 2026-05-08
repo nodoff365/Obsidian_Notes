@@ -279,7 +279,6 @@ systemctl restart httpd
 #intra.gmseo.local에서 테스트
 ```
 
-
 ```bash
 nslookup
 dig @8.8.8.8 naver.com +trace
