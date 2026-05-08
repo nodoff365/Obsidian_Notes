@@ -77,7 +77,7 @@ systemctl enable --now dhcpd # 시스템 재부팅해도 자동 실행
 
 systemctl stop dhcpd
 systemctl status dhcpd
-systemctl restart dhcpd
+systemctl restart dhcp
 
 journalctl -xe # 오류 메세지 시 확인/종료는 q
 ----------------------------------------------------------------------------

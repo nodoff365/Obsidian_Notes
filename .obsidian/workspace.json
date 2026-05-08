@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "수업 필기/2026-04-27-모의해킹(Linux-DHCP).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -77,7 +77,8 @@
               "title": "2026-05-08-모의해킹(Linux-MAIL)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수업 필기/2026-04-27-모의해킹(Linux-DHCP).md",
+                "file": "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-04-27-모의해킹(Linux-DHCP) 의 개요"
+              "title": "2026-04-28-모의해킹(Linux-FTP) 의 개요"
             }
           },
           {
@@ -252,13 +253,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0aa3c84efccd0760",
+  "active": "03c758f33b7892dd",
   "lastOpenFiles": [
     "수업 필기/2026-05-08-모의해킹(Linux-MAIL).md",
     "수업 필기/2026-05-06-모의해킹(Linux-DNS).md",
-    "수업 필기/2026-05-07-모의해킹(Linux-HTTP).md",
-    "수업 필기/2026-04-27-모의해킹(Linux-DHCP).md",
     "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
+    "수업 필기/2026-04-27-모의해킹(Linux-DHCP).md",
+    "수업 필기/2026-05-07-모의해킹(Linux-HTTP).md",
     "수업 필기/2026-04-22-모의해킹.md",
     "무제.md",
     "수업 필기/2026-04-29-VirtualBox-GNS3.md",
