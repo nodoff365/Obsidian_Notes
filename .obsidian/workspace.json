@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수업 필기/2026-04-27-모의해킹(DHCP).md",
+                "file": "수업 필기/2026-04-27-모의해킹(Linux-DHCP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-27-모의해킹(DHCP)"
+              "title": "2026-04-27-모의해킹(Linux-DHCP)"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수업 필기/2026-05-06-모의해킹(DNS).md",
-                "mode": "preview",
+                "file": "수업 필기/2026-05-08-모의해킹(Linux-NFS).md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-06-모의해킹(DNS)"
+              "title": "2026-05-08-모의해킹(Linux-NFS)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수업 필기/2026-05-06-모의해킹(DNS).md",
+                "file": "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-05-06-모의해킹(DNS) 의 개요"
+              "title": "2026-04-28-모의해킹(Linux-FTP) 의 개요"
             }
           },
           {
@@ -210,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5
+    "width": 251.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,12 +225,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3016a066677cd7b",
+  "active": "84aff6b1632b6a26",
   "lastOpenFiles": [
-    "2026-05-07-모의해킹(http).md",
-    "수업 필기/2026-05-06-모의해킹(DNS).md",
-    "수업 필기/2026-04-27-모의해킹(DHCP).md",
+    "수업 필기/2026-04-27-모의해킹(Linux-DHCP).md",
     "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
+    "수업 필기/2026-05-08-모의해킹(Linux-NFS).md",
+    "수업 필기/2026-05-07-모의해킹(http).md",
+    "수업 필기/2026-05-06-모의해킹(DNS).md",
     "수업 필기/2026-04-22-모의해킹.md",
     "수업 필기/2026-04-29-VirtualBox-GNS3.md",
     "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
@@ -265,7 +267,6 @@
     "자격증 자료/정보기.pdf",
     "2026-03-23.md",
     "2026-03-18-gcc install.md",
-    "보안기사 실기.md",
     "실습 환경 구축",
     "자격증 자료/2026_정보처리기사필기_기출문제집_핵심요약_unlocked.pdf",
     "자격증 자료/SQLD_시험전에 한번 보기.pdf",
