@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-05-12-Windows.md",
+                "file": "2026-05-12-Windows(FTP, WEB).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-12-Windows"
+              "title": "2026-05-12-Windows(FTP, WEB)"
             }
           }
         ],
@@ -213,7 +213,7 @@
   },
   "active": "67cd5c0b7b970668",
   "lastOpenFiles": [
-    "2026-05-12-Windows.md",
+    "2026-05-12-Windows(FTP, WEB).md",
     "2026-05-11-미정.md",
     "수업 필기/2026-05-08-모의해킹(Linux-MAIL).md",
     "260511구성도 1.png",
