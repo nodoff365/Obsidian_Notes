@@ -34,11 +34,26 @@ compmgmt.msc
 services.msc
 ```
 
+```bash
+# WEB SITE 구축
+C - web 폴더 생성 - index.html 작성
+
+IIS 관리자 - 사이트 - 웹사이트 추가 - 사이트이름/실제경로 지정(경로 C:\web)
+```
 
 ```html
+# index.html 내용
 <html>
 <body>
-<h1>SGM-WEB-2</h1>
+<h1>SGM-WEB-1</h1>
 </body>
 </html>
+```
+
+```bash
+# 
+```
+
+```bash
+# 
 ```
