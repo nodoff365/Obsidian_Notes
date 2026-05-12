@@ -1,14 +1,6 @@
 ```bash
-#w2k22-ad DHCP, DNS 구성
+# powershell에서 설치도 가능 
 Install-WindowsFeature -Name DHCP -IncludeManagementTools
-
-도구 - DHCP - IPv4(새 범위) - ~~
-관리 - 역할 및 기능 추가 - ~~
-
-dns, 웹서버(IIS)
-역할 서비스 (IP및도메인제한, windows인증, 기본인증, 로깅도구, 동적콘텐츠압축, http리디렉션, 관리서비스)
-
-도구 - dns - 정방향 - 주영역 - 영역이름(sgm.local) - 
 ```
 
 ```bash
@@ -40,33 +32,28 @@ C - web 폴더 생성 - index.html 작성
 # index.html 내용
 <html>
 <body>
-<h1>SGM-WEB-1</h1>
+<h1>SGM-MAIN-1</h1>
 </body>
 </html>
 
 IIS 관리자 - 사이트 - 웹사이트 추가 - 사이트이름/실제경로 지정(경로 C:\web)
 ```
 
-```bash
-# 사용자 인증
-인증 - 사용 안 함
-```
-
----
-
 ![[Pasted image 20260512142916.png]]
 
 ```bash
 # w2k22-ad
-dhcp, dns, 웹서버
-DHCP DNS IIS
+서버관리자 - 관리 - 역할 및 기능 추가 - 다음 - 다음 - 다음 - DHCP 서버/DNS 서버/웹 서버(IIS) 다음 - 
 
+DHCP - IPv4(새 범위) - 다음 - 이름(sgm_dhcp) - 
 ```
 
 ```bash
 # w2k22-mem1
 
-
+IIS관리자
+ftp 방화벽인바운드 추가
+서비스 Microsoft FTP Service 재시작
 ```
 
 ```bash
