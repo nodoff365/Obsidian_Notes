@@ -61,3 +61,8 @@ ftp 방화벽인바운드 추가
 
 
 ```
+
+
+
+https://learn.microsoft.com/en-us/sysinternals/downloads/
+Sysinternsal Suite - Bginfo64
