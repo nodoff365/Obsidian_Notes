@@ -30,30 +30,47 @@ dns, 웹서버(IIS)
 ```
 
 ```bash
-compmgmt.msc
-services.msc
+compmgmt.msc # 컴퓨터 관리, 계정 추가
+services.msc # 서비스
 ```
 
 ```bash
 # WEB SITE 구축
 C - web 폴더 생성 - index.html 작성
-
-IIS 관리자 - 사이트 - 웹사이트 추가 - 사이트이름/실제경로 지정(경로 C:\web)
-```
-
-```html
 # index.html 내용
 <html>
 <body>
 <h1>SGM-WEB-1</h1>
 </body>
 </html>
+
+IIS 관리자 - 사이트 - 웹사이트 추가 - 사이트이름/실제경로 지정(경로 C:\web)
 ```
 
 ```bash
-# 
+# 사용자 인증
+인증 - 사용 안 함
+```
+
+---
+
+![[Pasted image 20260512142916.png]]
+
+```bash
+# w2k22-ad
+dhcp, dns, 웹서버
+DHCP DNS IIS
+
 ```
 
 ```bash
-# 
+# w2k22-mem1
+
+
+```
+
+```bash
+# w2k22-mem2
+
+
 ```
