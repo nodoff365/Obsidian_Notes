@@ -12,27 +12,26 @@ Windows Server(AD를 통한 인증, Group Policy를 통한 관리)
 		3.1.2 Domain Name
 		3.1.3 고객과 직원 계정 및 패스워드 정보 저장
 		3.1.4 Application 설치 비권장 (보안 및 안정성 문제)
+
+### Administrator 계정의 종류
 ---
-## Administrator 계정의 종류
-
-### 1. 로컬 Administrator (= pc이름\administrator)
-
-- **각 컴퓨터마다 독립적으로 존재**하는 계정
-- AD와 **완전히 무관** — 도메인이 죽어도 사용 가능
-- SAM 데이터베이스(레지스트리)에 저장
-- 예: `MYPC\Administrator`, `DC01\Administrator`
-
-### 2. 도메인 Administrator (= 도메인명\administrator)
-
-- **AD 도메인 전체를 관리**하는 계정
-- AD 데이터베이스(ntds.dit)에 저장
-- 예: `CORP\Administrator`
-
-### 3. DSRM Administrator (디렉터리 서비스 복구 모드)
-
-- **DC 설치 시 따로 설정**하는 별도 비밀번호
-- DC의 로컬 Administrator처럼 동작하지만, **일반 부팅 시에는 사용 불가**
-- AD가 망가졌을 때 복구용으로만 사용
+#### 1. 로컬 Administrator
+- 각 컴퓨터마다 **독립적으로 존재**
+- AD(Active Directory)와 무관하게 **SAM 데이터베이스**에 저장
+- 도메인이 없어져도 항상 로그인 가능
+- Windows 설치 시 최초 생성되는 계정
+---
+#### 2. 도메인 Administrator
+- AD 설치(DC 승격) 시 생성되는 계정
+- **ntds.dit** 데이터베이스에 저장
+- 도메인에 가입된 모든 PC에서 사용 가능
+- DC(Domain Controller)가 없으면 인증 불가
+---
+#### 3. DSRM(Directory Services Restore Mode) Administrator
+- DC 승격 시 **별도로 설정하는 비밀번호**
+- AD 서비스가 손상됐을 때 복구 목적으로만 사용
+- 안전 부팅(복구 모드) 상태에서만 로그인 가능
+- 일반 부팅 상태에서는 사용 불가
 ---
 ```bash
 # w2k22-ad
@@ -57,9 +56,34 @@ ad 복원모드 로그인 할 때 pc이름\administrator(로컬계정) 사용
 
 구성요소제거ad도메인 도메인컨트롤러내리기
 컴퓨터이름도메인변경-자세히-sgm.local 삭제
+
+1차dns 10.0.0.21(도메인컨트롤러쪽으로)
 ```
 
 ```bash
 # w2k22-mem2
+
+```
+
+
+```
+#
+# AD DS 배포용 Windows PowerShell 스크립트
+#
+
+Import-Module ADDSDeployment
+Install-ADDSForest `
+-CreateDnsDelegation:$false `
+-DatabasePath "C:\Windows\NTDS" `
+-DomainMode "WinThreshold" `
+-DomainName "sgm.local" `
+-DomainNetbiosName "SGM" `
+-ForestMode "WinThreshold" `
+-InstallDns:$true `
+-LogPath "C:\Windows\NTDS" `
+-NoRebootOnCompletion:$false `
+-SysvolPath "C:\Windows\SYSVOL" `
+-Force:$true
+
 
 ```
