@@ -4,7 +4,7 @@ Windows Server(AD를 통한 인증, Group Policy를 통한 관리)
 1. Standalone
 	1.1 독립 실행형. 다른 서버와 상관 관계가 없음
 2. Member Server(Domain Logon, Local Logon)
-	2.1 DC의 자원(User, Group, Computer)을 갖어다 쓰기 위해서 구성
+	2.1 DC의 자원(User, Group, Computer)을 쓰기 위해서 구성
 	2.2 Application은 Member Server에 설치를 권장함
 3. Domain Controller(Domain Logon)
 	3.1 Domain Controller
@@ -38,19 +38,20 @@ Windows Server(AD를 통한 인증, Group Policy를 통한 관리)
 
 서버 역할(ActiveDirectory도메인서비스)
 이 서버를 도메인 컨트롤러로 승격
-새 포리스트를 추가합니다 - 루트 도메인 이름 sgm.local 다음 - 포리스트기능수준 2016/DSRM암호 It12345! 다음 - DNS옵션(다음) - 추가옵션(다음) - 경로(다음) - 검토옵션(다음) - 필수구성요소확인(설치)
+새 포리스트를 추가합니다 - 루트 도메인 이름 sgm.local 다음 - 포리스트기능수준 2016/DSRM암호 It12345! 다음 - DNS옵션(다음) 자식도메인만위임체크  - 추가옵션(다음) - 경로(다음) - 검토옵션(다음) - 필수구성요소확인(설치)
 
 ncpa.cpl - ipv6 - 자동으로 DNS서버주소받기로 변경
 
 시스템 구성(msconfig) - 부팅 - 안전부팅(Active Directory복구)
 ad 복원모드 로그인 할 때 pc이름\administrator(로컬계정) 사용
 
-대시보드 - 도구(ActiveDirectory사용자및컴퓨터) - Users(새로만들기-사용자) - 전체이름(Test_A),사용자로그온이름(a)
-
+#AD 계정 생성
+대시보드 - 도구(ActiveDirectory사용자및컴퓨터) - Users(새로만들기-사용자) - 전체이름(Test_A),사용자로그온이름(a) - 암호(It12345!),다음~~ 체크해제,사용자~~,암호~~ 체크(다음) - 마침
 ```
 
 ```bash
 # w2k22-mem1
+# 원격지에서 계정 사용위해 도메인 멤버로 가입
 서버 역할(ActiveDirectory도메인서비스)
 이 서버를 도메인 컨트롤러로 승격 - 배포구성(기존 도메인에 도메인~) - 도메인(선택) - sgm\administrator / It1 - 도메인컨트롤러옵션(DSRM암호 It12345!) 다음 - DNS옵션(다음) - 추가옵션(다음) - 경로(다음) - 검토옵션(다음) - 필수구성요소확인(설치)
 
@@ -84,6 +85,25 @@ Install-ADDSForest `
 -NoRebootOnCompletion:$false `
 -SysvolPath "C:\Windows\SYSVOL" `
 -Force:$true
-
-
 ```
+
+```bash
+# AD, DC 제거
+서버관리자-로컬서버-컴퓨터이름-변경-자세히-DNS접미사 삭제
+sysdm.cpl- 변경 - 작업그룹(WORKGROUP)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+ad 쌍둥이
+멤버등록
+자식등록
