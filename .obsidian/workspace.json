@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "수업 필기/2026-05-13-Windows(AD).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -171,23 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-05-11-미정.md",
+                "file": "수업 필기/2026-05-14-Windows(AD).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-05-11-미정 의 개요"
-            }
-          },
-          {
-            "id": "0a20108ea344bae4",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "2026-05-14-Windows(AD) 의 개요"
             }
           }
         ],
@@ -195,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5,
-    "collapsed": true
+    "width": 251.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e0194f9d8e56314",
+  "active": "c3016a066677cd7b",
   "lastOpenFiles": [
     "수업 필기/2026-05-13-Windows(AD).md",
     "수업 필기/2026-05-14-Windows(AD).md",

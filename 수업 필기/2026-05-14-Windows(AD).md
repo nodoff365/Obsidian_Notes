@@ -53,4 +53,36 @@ Seize infrastructure master
 
 12:10~
 
-## 2.
+## 2. DC 강제삭제 메타데이터 삭제
+
+```
+ntdsutil
+roles
+connections
+connect to server w2k22-ad.sgm.local
+quit
+transfer naming master
+quit
+metadata cleanup
+connections
+connect to server w2k22-mem1.sgm.local
+quit
+select operation target
+list site
+select site 0
+list domain in iste
+select domain 1
+list servers for domain in site
+select server 0
+list naming context
+select naming context 6
+quit
+remove selected server
+remove selected naming context
+remove selected domain
+```
+
+
+ad ADDC
+MEM1 가입
+MEM2 가입
