@@ -35,7 +35,8 @@
               "title": "2026-05-13-Windows(AD)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "수업 필기/2026-05-14-Windows(AD).md",
+                "file": "수업 필기/2026-05-13-Windows(AD).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-05-14-Windows(AD) 의 개요"
+              "title": "2026-05-13-Windows(AD) 의 개요"
             }
           }
         ],
@@ -185,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5
+    "width": 251.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,10 +201,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3016a066677cd7b",
+  "active": "05be87c587af45a1",
   "lastOpenFiles": [
-    "수업 필기/2026-05-13-Windows(AD).md",
     "수업 필기/2026-05-14-Windows(AD).md",
+    "수업 필기/2026-05-13-Windows(AD).md",
     "수업 필기/2026-04-27-모의해킹(Linux-DHCP).md",
     "수업 필기/2026-05-11-미정.md",
     "수업 필기/2026-05-08-모의해킹(Linux-MAIL).md",

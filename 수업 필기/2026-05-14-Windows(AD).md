@@ -50,9 +50,6 @@ Seize infrastructure master
 ```
 
 ---
-
-12:10~
-
 ## 2. DC 강제삭제 메타데이터 삭제
 
 ```
@@ -83,6 +80,5 @@ remove selected domain
 ```
 
 
-ad ADDC
-MEM1 가입
-MEM2 가입
+
+12:10~ 공유폴더실습
