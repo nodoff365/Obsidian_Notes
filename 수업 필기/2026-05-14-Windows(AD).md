@@ -84,6 +84,15 @@ remove selected domain
 12:10~ 공유폴더실습
 
 ## 3. GPO 배경화면 강제 설정
+#### GPO / OU 개념
+
+|용어|설명|
+|---|---|
+|**OU** (Organizational Unit)|AD에서 사용자/컴퓨터를 묶는 폴더 단위|
+|**GPO** (Group Policy Object)|OU에 적용하는 정책 묶음 (배경화면, 보안 등)|
+
+> OU에 GPO를 연결하면 해당 OU 안의 사용자/컴퓨터에 정책이 일괄 적용됨
+
 공유 폴더 준비
 
 ```
