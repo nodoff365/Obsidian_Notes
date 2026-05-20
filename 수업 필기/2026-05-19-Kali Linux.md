@@ -124,7 +124,7 @@ https://127.0.0.1:8834
 sgm/It1
 ```
 
-### 1. 설치
+### 1. OPENVAS 설치
 ```bash
 apt update && apt install gvm -y
 ```
