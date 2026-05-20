@@ -161,3 +161,7 @@ https://127.0.0.1:9392
 ```
 - ID: `admin`
 - PW: `gvm-setup` 완료 시 출력된 비밀번호
+
+```
+runuser -u _gvm -- gvmd --user=admin --new-password=원하는비밀번호
+```
