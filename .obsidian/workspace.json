@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-05-21.md",
+                "file": "수업 필기/2026-05-20.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-05-21 의 개요"
+              "title": "2026-05-20 의 개요"
             }
           },
           {
@@ -225,11 +225,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d0a47143da03334a",
+  "active": "9b4393f43567a761",
   "lastOpenFiles": [
+    "2026-05-21.md",
     "수업 필기/2026-05-19-Kali Linux.md",
     "수업 필기/2026-05-20.md",
-    "2026-05-21.md",
     "수업 필기/2026-05-06-모의해킹(Linux-DNS).md",
     "수업 필기/2026-04-22-모의해킹.md",
     "수업 필기/2026-04-29-VirtualBox-GNS3.md",
