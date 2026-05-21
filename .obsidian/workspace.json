@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f283770f3547ff3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "수업 필기/2026-04-22-모의해킹.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-22-모의해킹"
-            }
-          },
-          {
-            "id": "be8b22198d76ef81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "수업 필기/2026-05-06-모의해킹(Linux-DNS).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-06-모의해킹(Linux-DNS)"
-            }
-          },
-          {
             "id": "e4af050faf200c26",
             "type": "leaf",
             "state": {
@@ -78,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-05-19-.md",
+                "file": "2026-05-21.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-05-19- 의 개요"
+              "title": "2026-05-21 의 개요"
             }
           },
           {
@@ -259,11 +231,11 @@
     "수업 필기/2026-05-20.md",
     "2026-05-21.md",
     "수업 필기/2026-05-06-모의해킹(Linux-DNS).md",
+    "수업 필기/2026-04-22-모의해킹.md",
     "수업 필기/2026-04-29-VirtualBox-GNS3.md",
     "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
     "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
     "수업 필기/2026-04-27-모의해킹(Linux-DHCP).md",
-    "수업 필기/2026-04-22-모의해킹.md",
     "수업 필기/2026-04-08-취약점분석.md",
     "수업 필기/2026-05-11-미정.md",
     "수업 필기/2026-05-18-SSH.md",
