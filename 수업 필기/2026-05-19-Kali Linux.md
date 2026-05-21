@@ -12,7 +12,7 @@ apt install -y fonts-nanum fcitx5 fcitx5-hangul
 LANG=ko_KR.UTF-8
 LANGUAGE=ko_KR.UTF-8
 reboot
-# 재부팅 후 우상단 키보드 그림 우클릭 Input Method Settiongs 에서 키보드 - 한국어 추가   
+# 재부팅 후 우상단 키보드 그림 우클릭 Input Method Settings 에서 키보드 - 한국어 추가   
 ```
 ---
 ### 2단계: 대상 정찰 (nmap)
