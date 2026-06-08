@@ -35,8 +35,7 @@
               "title": "2026-06-08"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d7872ed5e02197c",
+  "active": "67ed0b4952cb91aa",
   "lastOpenFiles": [
     "2026-06-08.md",
     "리소스표.md",
