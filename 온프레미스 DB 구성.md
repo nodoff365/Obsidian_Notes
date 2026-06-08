@@ -16,7 +16,6 @@ mysql_secure_installation
 **3. WordPress용 DB/유저 생성**
 
 
-
 ```bash
 mysql -u root -pIt12345@
 ```
