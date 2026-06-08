@@ -1,18 +1,12 @@
 Rocky Linux에 MySQL 설치하는 방법이에요.
 
 **1. MySQL 설치**
-
-
-
 ```bash
 dnf install -y mysql-server
 systemctl enable --now mysqld
 ```
 
 **2. 초기 보안 설정**
-
-
-
 ```bash
 mysql_secure_installation
 ```
