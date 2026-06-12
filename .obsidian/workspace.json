@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67ed0b4952cb91aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리소스표.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "리소스표"
-            }
-          },
-          {
-            "id": "48d7875bf2a0071a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-06-08.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-08"
-            }
-          },
-          {
-            "id": "d1be4c3d7911a1f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-06-09.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-09"
-            }
-          },
-          {
             "id": "b05b1f3e72569299",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제.md",
+                "file": "발표스크립트_서강민.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "발표스크립트_서강민"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,16 +198,16 @@
   },
   "active": "b05b1f3e72569299",
   "lastOpenFiles": [
+    "수업 필기/2026-05-27-Terraform.md",
+    "초보자설명서.md",
     "무제.md",
     "2026-06-09.md",
     "2026-06-08.md",
     "2026-05-28.md",
     "260511구성도.png",
     "리소스표.md",
-    "초보자설명서.md",
     "온프레미스 DB 구성.md",
     "모의침투테스트.md",
-    "수업 필기/2026-05-27-Terraform.md",
     "수업 필기/2026-05-26-.md",
     "수업 필기/2026-05-20.md",
     "수업 필기/2026-05-19-Kali Linux.md",
