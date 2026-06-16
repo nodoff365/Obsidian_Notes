@@ -35,8 +35,7 @@
               "title": "2026-06-16"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e04814b1b17f886",
+  "active": "31d13704cc71556a",
   "lastOpenFiles": [
-    "2026-06-15.md",
     "2026-06-16.md",
+    "2026-06-15.md",
     "무제 1.md",
     "Pasted image 20260512142916.png",
     "Pasted image 20260514093633.png",
