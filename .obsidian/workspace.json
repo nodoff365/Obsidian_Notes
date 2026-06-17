@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "2026-06-16.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -49,7 +49,8 @@
               "title": "2026-06-17"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,11 +225,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31d13704cc71556a",
+  "active": "f3e366ecc4a36a7e",
   "lastOpenFiles": [
     "2026-06-16.md",
-    "2026-06-17.md",
     "2026-06-15.md",
+    "2026-06-17.md",
     "무제 1.md",
     "Pasted image 20260512142916.png",
     "Pasted image 20260514093633.png",
