@@ -8,91 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31d13704cc71556a",
+            "id": "a246e64d02c57deb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-06-15.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-15"
-            }
-          },
-          {
-            "id": "1e04814b1b17f886",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-06-16.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-16"
-            }
-          },
-          {
-            "id": "f3e366ecc4a36a7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-06-17.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-17"
-            }
-          },
-          {
-            "id": "024aae97f31350bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "수업 필기/2026-06-18.md",
+                "file": "2026-06-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-18"
-            }
-          },
-          {
-            "id": "b09fdfb90ec46e93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "수업 필기/2026-06-18.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-18"
-            }
-          },
-          {
-            "id": "7b285967d95e126b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "수업 필기/2026-06-09.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-09"
+              "title": "2026-06-24"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 216.5,
+    "collapsed": true
   },
   "right": {
     "id": "6bb1b829e6e3bb05",
@@ -266,10 +196,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b285967d95e126b",
+  "active": "a246e64d02c57deb",
   "lastOpenFiles": [
-    "수업 필기/2026-06-18.md",
+    "2026-06-24.md",
     "수업 필기/2026-06-09.md",
+    "수업 필기/2026-06-18.md",
     "수업 필기/2026-06-15.md",
     "수업 필기/2026-06-16.md",
     "수업 필기/2026-06-17.md",
