@@ -55,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-06-18.md",
+                "file": "수업 필기/2026-06-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "2026-06-18"
             }
+          },
+          {
+            "id": "b09fdfb90ec46e93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "수업 필기/2026-06-18.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-18"
+            }
+          },
+          {
+            "id": "7b285967d95e126b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "수업 필기/2026-06-09.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-09"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -121,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5,
-    "collapsed": true
+    "width": 216.5
   },
   "right": {
     "id": "6bb1b829e6e3bb05",
@@ -239,26 +266,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "024aae97f31350bc",
+  "active": "7b285967d95e126b",
   "lastOpenFiles": [
-    "2026-06-17.md",
-    "2026-06-16.md",
-    "2026-06-15.md",
-    "2026-06-18.md",
-    "Pasted image 20260618092641.png",
-    "무제 1.md",
-    "Pasted image 20260512142916.png",
-    "Pasted image 20260514093633.png",
-    "온프레미스 DB 구성.md",
-    "발표스크립트_서강민.md",
-    "리소스표.md",
+    "수업 필기/2026-06-18.md",
+    "수업 필기/2026-06-09.md",
+    "수업 필기/2026-06-15.md",
+    "수업 필기/2026-06-16.md",
+    "수업 필기/2026-06-17.md",
+    "수업 필기/2026-06-08.md",
     "260511구성도.png",
-    "2026-06-08.md",
-    "2026-06-09.md",
-    "2026-05-28.md",
-    "6.png",
+    "2026-06-22.md",
     "4.png",
     "5.png",
+    "6.png",
+    "Pasted image 20260514093633.png",
+    "Pasted image 20260512142916.png",
+    "리소스표.md",
+    "온프레미스 DB 구성.md",
+    "발표스크립트_서강민.md",
+    "Pasted image 20260618092641.png",
+    "무제 1.md",
+    "2026-05-28.md",
     "CoreMall_png/SQL_Injection_취약점탐색8.png",
     "CoreMall_png/SQL_Injection_취약점탐색6.png",
     "CoreMall_png/SQL_Injection_취약점탐색5.png",
@@ -275,7 +303,6 @@
     "수업 필기/2026-04-29-VirtualBox-GNS3.md",
     "수업 필기/2026-04-29-모의해킹(Windows-FTP).md",
     "수업 필기/2026-04-28-모의해킹(Linux-FTP).md",
-    "수업 필기/2026-04-27-모의해킹(Linux-DHCP).md",
     "쓰레기통",
     "CoreMall_png",
     "자격증 자료/정보기 1.pdf",
