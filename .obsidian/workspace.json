@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수업 필기/2026-06-15.md",
+                "file": "수업 필기/2026-06-15-Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-15"
+              "title": "2026-06-15-Docker"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "2026-06-26-쿠버네티스"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,18 +225,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a246e64d02c57deb",
+  "active": "45c351e37e099257",
   "lastOpenFiles": [
+    "2026-06-25-쿠버네티스 구성.md",
+    "수업 필기/2026-06-15-Docker.md",
+    "2026-06-26-쿠버네티스.md",
     "수업 필기/2026-06-16.md",
     "수업 필기/2026-06-17.md",
     "수업 필기/2026-06-18.md",
     "2026-06-24.md",
-    "2026-06-26-쿠버네티스.md",
-    "2026-06-25-쿠버네티스 구성.md",
     "확인.png",
     "token.png",
     "수업 필기/2026-06-09.md",
-    "수업 필기/2026-06-15.md",
     "수업 필기/2026-06-08.md",
     "260511구성도.png",
     "2026-06-22.md",
