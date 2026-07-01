@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "2026-06-26-쿠버네티스"
             }
+          },
+          {
+            "id": "3a03fee311726cc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-07-01-쿠버네티스.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-07-01-쿠버네티스"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,12 +239,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45c351e37e099257",
+  "active": "3a03fee311726cc6",
   "lastOpenFiles": [
-    "과제.png",
-    "2026-06-25-쿠버네티스 구성.md",
-    "수업 필기/2026-06-15-Docker.md",
     "2026-06-26-쿠버네티스.md",
+    "2026-06-25-쿠버네티스 구성.md",
+    "2026-07-01-쿠버네티스.md",
+    "수업 필기/2026-06-15-Docker.md",
+    "과제.png",
     "수업 필기/2026-06-16.md",
     "수업 필기/2026-06-17.md",
     "수업 필기/2026-06-18.md",
@@ -252,7 +267,6 @@
     "Pasted image 20260618092641.png",
     "무제 1.md",
     "2026-05-28.md",
-    "CoreMall_png/SQL_Injection_취약점탐색8.png",
     "1.md",
     "수업 필기/2026-05-27-Terraform.md",
     "초보자설명서.md",
