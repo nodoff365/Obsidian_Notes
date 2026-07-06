@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -267,7 +267,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "795f9c461987ad65",
+  "active": "94b726bf10498729",
   "lastOpenFiles": [
     "2026-07-03-Ansible.md",
     "2026-07-03-쿠버네티스.md",
