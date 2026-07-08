@@ -351,3 +351,18 @@ kubectl get po -o wide
 lynx <nginx-pod-ip>
 lynx <apache-pod-ip>
 ```
+
+
+
+---
+```yaml
+vi sqlsec.yml
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: sqlsec
+data:
+  MYSQL_ROOT_PASSWORD: It12345!
+  MYSQL_PASSWORD: It12345!
+```
