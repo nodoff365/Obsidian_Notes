@@ -363,6 +363,28 @@ kind: Secret
 metadata:
   name: sqlsec
 data:
-  MYSQL_ROOT_PASSWORD: It12345!
-  MYSQL_PASSWORD: It12345!
+  MYSQL_ROOT_PASSWORD: SXQxMjM0NQo=
+  MYSQL_PASSWORD: SXQxMjM0NQo=
+  
+kubectl apply -f sqlsec.yml
+kubectl get secrets
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mysql-consec
+spec:
+  containers:
+  - name: m1
+    image: mysql:8.0
+    imagePullPolicy: Never
+    ports:
+    - containerPort: 3306
+    envFrom:
+    - configMapRef:
+        name: sqlenv
+    - secretRef:
+        name: sqlsec
 ```
