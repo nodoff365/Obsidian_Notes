@@ -276,3 +276,51 @@ kubectl delete deployment --all
 kubectl delete svc --all
 kubectl delete configmap --all
 ```
+
+---
+```yaml
+vi indexdata.yml
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index
+data:
+  babo.html: |
+    <html>
+    <body>
+    <h1>SGM-CONFIGMAP-BABO</h1>
+    </body>
+    </html>
+  coco.html: |
+    <html>
+    <body>
+    <h1>SGM-CONFIGMAP-APACHE</h1>
+    </body>
+    </html>
+
+kubectl apply -f indexdata.yml
+---
+vi npod.yml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: n1
+    image: nginx
+    imagePullPolicy: Never
+    ports:
+    - containerPort: 80
+    volumeMounts:
+    - mountPath: /usr/share/nginx/html/index.html
+      subPath: babo.html
+      name: sgm-vol
+  volumes:
+  - name: sgm-vol
+    configMap:
+      name: index
+      
+```
