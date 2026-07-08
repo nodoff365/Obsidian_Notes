@@ -161,8 +161,6 @@ kubectl apply -f wordenv.yml
 kubectl get configmaps
 ```
 
-> 주의: WORDPRESS_DB_HOST 값은 서비스 이름과 정확히 일치해야 함 (svc-mysql, 하이픈)
-
 ### 2. MySQL Pod 생성 + ClusterIP 노출
 
 **mysql.yml**
@@ -251,10 +249,6 @@ spec:
 kubectl apply -f word-svc.yml
 kubectl get svc -o wide
 ```
-
-> - type: NodePort → 외부 공개
-> - selector: app=wordpress → Deployment의 Pod 라벨과 일치
-> - nodePort: 30000 → 외부 접속 포트
 
 ### 5. 실제 PC에서 접속
 

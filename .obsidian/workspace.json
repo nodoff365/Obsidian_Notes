@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-07-08-쿠버네티스.md",
+                "file": "2026-07-08-쿠버네티스(ConfigMap).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-08-쿠버네티스"
+              "title": "2026-07-08-쿠버네티스(ConfigMap)"
             }
           }
         ],
@@ -215,7 +215,7 @@
   "lastOpenFiles": [
     "2026-07-03-쿠버네티스.md",
     "2026-07-01-쿠버네티스.md",
-    "2026-07-08-쿠버네티스.md",
+    "2026-07-08-쿠버네티스(ConfigMap).md",
     "2026-07-06-쿠버네티스(ingress).md",
     "2026-07-07-쿠버네티스(volume).md",
     "2026-06-26-쿠버네티스.md",
