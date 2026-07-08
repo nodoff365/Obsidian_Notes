@@ -322,5 +322,32 @@ spec:
   - name: sgm-vol
     configMap:
       name: index
-      
+---
+vi apod.yml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: apache
+spec:
+  containers:
+  - name: h1
+    image: httpd
+    imagePullPolicy: Never
+    ports:
+    - containerPort: 80
+    volumeMounts:
+    - mountPath: /usr/local/apache2/htdocs/index.html
+      subPath: coco.html
+      name: sgm-vol
+  volumes:
+  - name: sgm-vol
+    configMap:
+      name: index
+
+kubectl apply -f npod.yml
+kubectl apply -f apod.yml
+kubectl get po -o wide
+lynx <nginx-pod-ip>
+lynx <apache-pod-ip>
 ```
