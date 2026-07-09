@@ -4,7 +4,7 @@ dnf install -y nfs-utils
 ```
 
 ```bash
-# rocky9-1
+# rocky9-1(master)
 mkdir /nfs-server
 
 vi /etc/exports
@@ -15,7 +15,7 @@ exportfs -v
 ```
 
 ```bash
-# rocky9-2
+# rocky9-2(node)
 mkdir /nfs-client
 
 mount -t nfs 10.0.0.11:/nfs-server /nfs-client
@@ -53,7 +53,6 @@ spec:
     path: /web
   
 kubectl apply -f pv.yml
-kubectl get pv
 -----------------------------------------------
 vi pvc.yml
 apiVersion: v1
@@ -69,5 +68,32 @@ spec:
       storage: 3Gi
       
 kubectl apply -f pvc.yml
+-----------------------------------------------
+vi nginx.yml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  containers:
+  - name: n1
+    image: nginx
+    imagePullPolicy: Never
+    ports:
+    - containerPort: 80
+    volumeMounts:
+    - mountPath: /usr/share/nginx/html/
+      name: sgm-stor
+  volumes:
+  - name: sgm-stor
+    persistentVolumeClaim:
+      claimName: sgm-pvc
 
+kubectl apply -f nginx.yml
+```
+
+```bash
+curl
 ```
