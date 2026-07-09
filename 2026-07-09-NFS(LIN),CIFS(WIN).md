@@ -44,15 +44,20 @@ kind: PersistentVolume
 metadata:
   name: sgm-pv
 spec:
-  storageClassName: sgm
+  storageClassName: sgm-stor
   capacity:
     storage: 10Gi
   accessModes:
     - ReadWriteOnce
+#   - ReadWriteMany
+# nfs:
+#   server: 10.0.0.11
+# path: /nfs-server
   hostPath:
     path: /web
   
 kubectl apply -f pv.yml
+kubectl get pv
 -----------------------------------------------
 vi pvc.yml
 apiVersion: v1
@@ -60,7 +65,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: sgm-pvc
 spec:
-  storageClassName: sgm
+  storageClassName: sgm-stor
   accessModes:
     - ReadWriteOnce
   resources:
@@ -68,6 +73,7 @@ spec:
       storage: 3Gi
       
 kubectl apply -f pvc.yml
+kubectl get pvc
 -----------------------------------------------
 vi nginx.yml
 apiVersion: v1
@@ -92,6 +98,33 @@ spec:
       claimName: sgm-pvc
 
 kubectl apply -f nginx.yml
+-----------------------------------------------
+vi apa.yml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: httpd
+  labels:
+    app: apache
+spec: 
+  containers:
+  - name: h1
+    image: httpd
+    imagePullPolicy: Never
+    ports:
+    - containerPort: 80
+    volumeMounts:
+    - mountPath: /usr/local/apache2/htdocs
+      name: sgm-vol
+  volumes:
+  - name: sgm-vol
+    persistentVolumeClaim:
+      claimName: sgm-pvc
+
+kubectl apply -f apa.yml
+---
+vi /nfs-server/index.html
+
 ```
 
 ```bash

@@ -35,8 +35,7 @@
               "title": "2026-07-09-LINUX(ACL)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "756aa273ff71367e",
+  "active": "9964a8a32d88fce7",
   "lastOpenFiles": [
     "2026-07-09-LINUX(ACL).md",
     "2026-07-09-NFS(LIN),CIFS(WIN).md",
