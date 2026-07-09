@@ -98,6 +98,9 @@ spec:
       claimName: sgm-pvc
 
 kubectl apply -f nginx.yml
+
+vi /web/index.html
+curl <nginx ip>
 -----------------------------------------------
 vi apa.yml
 apiVersion: v1
@@ -122,11 +125,7 @@ spec:
       claimName: sgm-pvc
 
 kubectl apply -f apa.yml
----
+-----------------------------------------------
 vi /nfs-server/index.html
-
-```
-
-```bash
-curl
+curl <httpd ip>
 ```
