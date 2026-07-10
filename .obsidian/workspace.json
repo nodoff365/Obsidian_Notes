@@ -35,7 +35,8 @@
               "title": "2026-07-09-LINUX(ACL)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,10 +211,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9964a8a32d88fce7",
+  "active": "756aa273ff71367e",
   "lastOpenFiles": [
-    "2026-07-09-LINUX(ACL).md",
     "2026-07-09-NFS(LIN),CIFS(WIN).md",
+    "2026-07-09-LINUX(ACL).md",
     "2026-07-08-쿠버네티스(ConfigMap).md",
     "2026-07-03-쿠버네티스.md",
     "2026-07-01-쿠버네티스.md",
