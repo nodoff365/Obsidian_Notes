@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-07-10-k8s스케일셋.md",
+                "file": "2026-07-10-쿠버네티스(스케일셋).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-10-k8s스케일셋"
+              "title": "2026-07-10-쿠버네티스(스케일셋)"
             }
           }
         ],
@@ -227,7 +227,7 @@
   },
   "active": "3aa43096ffd0e5ea",
   "lastOpenFiles": [
-    "2026-07-10-k8s스케일셋.md",
+    "2026-07-10-쿠버네티스(스케일셋).md",
     "2026-07-09-LINUX(ACL).md",
     "2026-07-09-NFS(LIN),CIFS(WIN).md",
     "2026-07-08-쿠버네티스(ConfigMap).md",
