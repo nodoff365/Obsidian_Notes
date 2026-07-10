@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9964a8a32d88fce7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-07-09-NFS(LIN),CIFS(WIN).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-09-NFS(LIN),CIFS(WIN)"
-            }
-          },
-          {
-            "id": "756aa273ff71367e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-07-10-쿠버네티스.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-10-쿠버네티스"
-            }
-          },
-          {
             "id": "ff29cc35a44ebde3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-07-10-Ansibel.md",
+                "file": "2026-07-10-Ansible1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-10-Ansibel"
+              "title": "2026-07-10-Ansible1"
+            }
+          },
+          {
+            "id": "ee6e851b2b650b22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-07-10-Ansible2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-07-10-Ansible2"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-07-07-쿠버네티스(volume).md",
+                "file": "2026-07-10-Ansible2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-07-07-쿠버네티스(volume) 의 개요"
+              "title": "2026-07-10-Ansible2 의 개요"
             }
           },
           {
@@ -225,12 +211,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff29cc35a44ebde3",
+  "active": "ee6e851b2b650b22",
   "lastOpenFiles": [
-    "2026-07-10-쿠버네티스.md",
-    "2026-07-10-Ansibel.md",
-    "2026-07-09-LINUX(ACL).md",
+    "2026-07-10-Ansible1.md",
+    "2026-07-10-Ansible2.md",
     "2026-07-09-NFS(LIN),CIFS(WIN).md",
+    "2026-07-10-쿠버네티스.md",
+    "2026-07-09-LINUX(ACL).md",
     "2026-07-08-쿠버네티스(ConfigMap).md",
     "2026-07-03-쿠버네티스.md",
     "2026-07-01-쿠버네티스.md",
@@ -262,7 +249,6 @@
     "무제 1.md",
     "2026-05-28.md",
     "1.md",
-    "수업 필기/2026-05-27-Terraform.md",
     "쓰레기통",
     "CoreMall_png",
     "자격증 자료/정보기 1.pdf",
