@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff29cc35a44ebde3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-07-10-Ansible1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-10-Ansible1"
-            }
-          },
-          {
             "id": "ee6e851b2b650b22",
             "type": "leaf",
             "state": {
@@ -49,8 +35,7 @@
               "title": "2026-07-13-Ansible3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,8 +213,16 @@
   "active": "ee6e851b2b650b22",
   "lastOpenFiles": [
     "2026-07-13-Ansible3.md",
-    "2026-07-10-Ansible1.md",
     "2026-07-10-Ansible2.md",
+    "2026-07-10-Ansible1.md",
+    "스크린샷/Pasted image 20260224093122.png",
+    "스크린샷/Pasted image 20260212103508.png",
+    "스크린샷/Pasted image 20260115154522.png",
+    "스크린샷/nfs1.png",
+    "스크린샷/nfs.png",
+    "스크린샷/df_cat_etc_fstab.png",
+    "스크린샷/서강민.png",
+    "Pasted image 20260713094600.png",
     "2026-07-09-NFS(LIN),CIFS(WIN).md",
     "2026-07-10-쿠버네티스.md",
     "2026-07-09-LINUX(ACL).md",
@@ -247,23 +240,14 @@
     "수업 필기/2026-06-18.md",
     "2026-06-24.md",
     "확인.png",
-    "token.png",
     "수업 필기/2026-06-09.md",
     "수업 필기/2026-06-08.md",
-    "260511구성도.png",
     "2026-06-22.md",
-    "4.png",
-    "5.png",
-    "6.png",
-    "Pasted image 20260514093633.png",
-    "Pasted image 20260512142916.png",
     "리소스표.md",
     "온프레미스 DB 구성.md",
     "발표스크립트_서강민.md",
-    "Pasted image 20260618092641.png",
     "무제 1.md",
-    "2026-05-28.md",
-    "쓰레기통",
+    "img",
     "CoreMall_png",
     "자격증 자료/정보기 1.pdf",
     "자격증 자료/정보기.pdf",
