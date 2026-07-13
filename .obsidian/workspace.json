@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-07-10-Ansible2.md",
+                "file": "2026-07-10-Ansible1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-10-Ansible2"
+              "title": "2026-07-10-Ansible1"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "2026-07-13-Ansible3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,11 +211,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee6e851b2b650b22",
+  "active": "7c5d1bae38ce4711",
   "lastOpenFiles": [
-    "2026-07-13-Ansible3.md",
-    "2026-07-10-Ansible2.md",
     "2026-07-10-Ansible1.md",
+    "2026-07-10-Ansible2.md",
+    "2026-07-13-Ansible3.md",
     "스크린샷/Pasted image 20260224093122.png",
     "스크린샷/Pasted image 20260212103508.png",
     "스크린샷/Pasted image 20260115154522.png",
