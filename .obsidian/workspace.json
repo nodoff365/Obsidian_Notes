@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "2026-07-10-Ansible2"
             }
+          },
+          {
+            "id": "7c5d1bae38ce4711",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-07-13-Ansible3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-07-13-Ansible3"
+            }
           }
         ],
         "currentTab": 1
@@ -213,6 +227,7 @@
   },
   "active": "ee6e851b2b650b22",
   "lastOpenFiles": [
+    "2026-07-13-Ansible3.md",
     "2026-07-10-Ansible1.md",
     "2026-07-10-Ansible2.md",
     "2026-07-09-NFS(LIN),CIFS(WIN).md",
@@ -248,7 +263,6 @@
     "Pasted image 20260618092641.png",
     "무제 1.md",
     "2026-05-28.md",
-    "1.md",
     "쓰레기통",
     "CoreMall_png",
     "자격증 자료/정보기 1.pdf",
